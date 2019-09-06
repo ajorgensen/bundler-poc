@@ -4,3 +4,5 @@ source 'https://rubygems.org'
 
 gem 'base_gem', git: 'git@github.com:ajorgensen/bundler-poc.git', glob: 'gems/base_gem/*.gemspec'
 gem 'some_gem', git: 'git@github.com:ajorgensen/bundler-poc.git', glob: 'gems/some_gem/*.gemspec'
+
+gemspec
