@@ -5,7 +5,7 @@ This repo is meant to demonstrate a strange behavior in bundler when multiple ge
 This repo contains three different gems: `base_gem`, `some_gem`, and `multiple_dependency`. The first two have no dependencies and a single dependency respectively. The behavior is highlighted in the third use case where we want to include both `base_gem` and `some_gem` as dependencies. 
 
 ## Steps to reproduce:
-1. `$ cd multiple_dependencies`
+1. `$ cd gems/multiple_dependencies`
 1. `$ bundle install`
 
 ## Output
